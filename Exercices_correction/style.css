@@ -1,0 +1,8 @@
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 2rem;
+    background-color: purple;
+    /* Rajout de l'opacité à 0 */
+    opacity: 0;
+  }
