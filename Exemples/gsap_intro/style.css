@@ -1,0 +1,42 @@
+:root {
+    --green: #70BF5A;
+    --purple: #5518D9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0; /* Élimine les marges par défaut */
+}
+
+body {
+    min-height: 100vh;
+    margin-top: 200vh;
+}
+
+.container {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+    background-color: var(--green);
+}
+
+@media screen and (max-width: 800px) {
+    .box {
+        background-color: var(--purple);
+    }
+}
